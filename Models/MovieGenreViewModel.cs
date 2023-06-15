@@ -1,5 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc.Rendering;
-using MvcMovie.Models;
+using MvCMovie.Models;
 using System.Collections.Generic;
 
 namespace MvCMovie.Models;

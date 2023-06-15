@@ -1,4 +1,4 @@
-﻿@model MvcMovie.Models.Movie
+﻿@model MvCMovie.Models.Movie
 
 @{
     ViewData["Title"] = "Details";
@@ -8,6 +8,7 @@
 
 <div>
     <h4>Church Movie</h4>
+    <img class="movie-image" src="@Html.Raw(Model.Image)">
     <hr />
     <dl class="row">
         <dt class = "col-sm-2">

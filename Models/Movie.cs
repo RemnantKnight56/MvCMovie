@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace MvcMovie.Models;
+namespace MvCMovie.Models;
 
 public class Movie
 {
@@ -29,4 +29,6 @@ public class Movie
     [StringLength(5)]
     [Required]
     public string? Rating { get; set; }
+
+    public string? Image { get; set; }
 }

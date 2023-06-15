@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
-using MvcMovie.Models;
+using MvCMovie.Models;
 
 namespace MvCMovie.Data
 {
@@ -14,6 +14,6 @@ namespace MvCMovie.Data
         {
         }
 
-        public DbSet<MvcMovie.Models.Movie> Movie { get; set; } = default!;
+        public DbSet<MvCMovie.Models.Movie> Movie { get; set; } = default!;
     }
 }
